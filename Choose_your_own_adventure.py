@@ -16,7 +16,7 @@ elif answer.lower() == "right":
     if answer.lower() == "back":
         print("You go back and lose.")
     elif answer.lower() == "cross":
-        answer = input("You cross the bridge and meet a stranger. Do you talk to them (yes/no)?")
+        answer = input("You cross the bridge and meet a stranger. Do you talk to them (yes/no) ?")
         if answer.lower() == "yes" or "y":
             print("You talk to the stranger and they give you gold. You Win!")
         elif answer.lower() == "no" or "n":
